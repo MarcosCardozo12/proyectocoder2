@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title> NATMC</title>
+    <link rel="icon" href="img/icononwg.ico">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">NATMC</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Contactos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://www.instagram.com/marcoss.cardozo/"
+                                        target="_blank">Instagram</a></li>
+                                <li><a class="dropdown-item" href="https://www.facebook.com/marcos.cardozou"
+                                        target="_blank"> Facebook</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="https://web.whatsapp.com/" target="_blank">Whatsapp</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Inicio</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar producto</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="grid-images">
+            <div class="imagen-producto image-1">
+                <img src="img/py1.jpg" alt="imagen producto 1">
+            </div>
+            <div class="imagen-producto image-2">
+                <img src="img/blanca4.jpg" alt="imagen producto 2">
+            </div>
+            <div class="imagen-producto image-3">
+                <img src="img/py4.jpg" alt="imagen producto 3">
+            </div>
+            <div class="imagen-producto image-4">
+                <img src="img/py3largo.jpg" alt="imagen producto 4">
+            </div>
+        </div>
+
+        <!--DETALLES DEL PRODUCTO-->
+        <div class="containter-details-product">
+            <div class="aside-details-product">
+                <div class="header-details-product">
+                    <h2>Remera Lisa Negra</h2>
+                    <div class="remera1">
+                        <img src="img/py1.jpg" alt="remera lisa negra">
+                    </div>
+                    <div class="row">
+                        <div class="calification">
+                            <i class="fa-solid fa-star"></i>
+                            <p>4.9- <span>142 reseñas</span></p>
+                        </div>
+                        <div class="share">
+                            <button class="btn">
+                                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                                <p>Compartir</p>
+                            </button>
+                            <button class="btn">
+                                <i class="fa-regular fa-heart"></i>
+                                <p>Guardar</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-details-product">
+                    <div class="container-acordeon">
+                        <button class="acordeon-button active">
+                            Descripcion
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <div class="acordeon-content">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis dicta provident magni
+                                eveniet voluptate repudiandae alias iure possimus explicabo eligendi!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container-acordeon">
+                        <button class="acordeon-button active">
+                            Caracteristicas
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <div class="acordeon-content">
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, sapiente.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, sapiente.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, sapiente.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="container-acordeon">
+                        <button class="acordeon-button active">
+                            Como Funciona
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <div class="acordeon-content">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis dicta provident magni
+                                eveniet voluptate repudiandae alias iure possimus explicabo eligendi!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container-acordeon">
+                        <button class="acordeon-button active">
+                            Preguntas Frecuentes
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <div class="acordeon-content">
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="body-details-product">
+                    <div class="info-product">
+                        <h2>Detalles del Producto</h2>
+                        <div class="info">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo amet autem excepturi
+                                minus, consequuntur voluptatum officia beatae consequatur assumenda saepe?
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde eligendi harum, dolorem
+                                qui illum officiis eaque quia eveniet repellat. Voluptatum, rerum!
+                            </p>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta possimus quod
+                                    consequatur neque error?</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta possimus quod
+                                    consequatur neque error?</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta possimus quod</li>
+                            </ul>
+                        </div>
+
+                        <div class="features-product">
+                            <div class="feature-product shipping">
+                                <i class="fa-solid fa-truck-fast"></i>
+                                <h4>Envio Gratis</h4>
+                                <p>
+                                    En ordenes superiores a $20.000
+                                </p>
+                            </div>
+                            <div class="feature-product reaturn">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                <h4>Muy Facil de devolver</h4>
+                                <p>Solo numero de telefono</p>
+                            </div>
+                            <div class="feature-product delivery">
+                                <i class="fa-solid fa-truck"></i>
+                                <h4>Entrega a nivel Nacional</h4>
+                                <p>
+                                    Entrega rapida Nacional
+                                </p>
+                            </div>
+                            <div class="feature-product refund">
+                                <i class="fa-solid fa-money-bill-transfer"></i>
+                                <h4>Politica de Reembolso</h4>
+                                <p>
+                                    60 dias para devolucion ante cualquier falla
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-card-payment">
+                    <div class="card-payment">
+                        <div class="header">
+                            <p class="price">$20.000</p>
+                            <p class="count-reviwes">
+                                <i class="fa-solid fa-star"></i>
+                                +
+                                <span>142 reseñas</span>
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p>Color: <span id="value-color">Negro</span></p>
+                            <div class="row-colors">
+                                <div class="container-color color-black selected" data-color="negro"></div>
+                                <div class="container-color color-white" data-color="blanco"></div>
+                                <div class="container-color color-orange" data-color="naranja"></div>
+                                <div class="container-color color-blue" data-color="azul"></div>
+                                <div class="container-color color-brown" data-color="marron"></div>
+                            </div>
+                        </div>
+                        <div class="sizes">
+                            <p>Talles: <span id="value-size">XS</span></p>
+                            <div class="container-sizes">
+                                <button class="btn-size selected">XS</button>
+                                <button class="btn-size">S</button>
+                                <button class="btn-size">M</button>
+                                <button class="btn-size">L</button>
+                                <button class="btn-size">XL</button>
+                                <button class="btn-size">2XL</button>
+                                <button class="btn-size">3XL</button>
+                            </div>
+                        </div>
+                        <div class="quantity">
+                            <div class="container-add-quantity">
+                                <div class="add-quantity">
+                                    <button class="btn-minus" id="btn-decrement">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </button>
+                                    <span id="count-product">1</span>
+                                    <button class="btn-plus" id="btn-increment">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </button>
+                                </div>
+                                <button class="btn-add-to-cart">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    Añadir al Carrito
+                                </button>
+                            </div>
+                            <div class="info-quantity">
+                                <div class="price-tax">
+                                    <p>$20.000 x <span id="quantity-product">1</span></p>
+                                    <p>Impuesto estimado</p>
+                                </div>
+                                <div class="value">
+                                    <p>$20.000</p>
+                                    <p>$0</p>
+                                </div>
+                            </div>
+                            <div class="total">
+                                <span>Total</span>
+                                <div class="price-total">$20.000</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="container container-productos-relacionados">
+        <h2>Los clientes tambien compraron</h2>
+        <div class="cards-productos-relacionados">
+            <div class="card-producto-relacionado">
+                <div class="image-product">
+                    <img src="img/gorra.jpg" alt="Producto relacionado 1">
+                    <div class="button-group">
+                        <button class="btn-add-to-bag">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            Añadir al Carrito
+                        </button>
+                        <button class="btn-quick-view">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            Vista previa
+                        </button>
+                    </div>
+                </div>
+                <div class="info-product">
+                    <div class="container-title">
+                        <h4>Gorra</h4>
+                        <p>Mockup</p>
+                    </div>
+                    <div class="container-price">
+                        <span>$20.000</span>
+                        <p>
+                            <i class="fa-solid fa-star"></i>
+                            4.4(61 reseñas)
+                        </p>
+                    </div>
+                </div>
+                <div class="cards-productos-relacionados">
+                    <div class="card-producto-relacionado">
+                        <div class="image-product">
+                            <img src="img/buzos45.jpg" alt="Producto relacionado 1">
+
+                            <div class="button-group">
+                                <button class="btn-add-to-bag">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    Añadir al Carrito
+                                </button>
+                                <button class="btn-quick-view">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    Vista previa
+                                </button>
+                            </div>
+                        </div>
+                        <div class="info-product">
+                            <div class="container-title">
+                                <h4>Buzo Canguro</h4>
+                                <p>Gris</p>
+                            </div>
+                            <div class="container-price">
+                                <span>$20.000</span>
+                                <p>
+                                    <i class="fa-solid fa-star"></i>
+                                    4.4(61 reseñas)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    </section>
+
+    <footer>
+        <div class="container footer">
+            <h1 class="logo">Nuestras Redes</h1>
+
+            <div class="container-social">
+                <a href="https://www.facebook.com/marcos.cardozou" target="_blank" class="facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                    <span>Facebook</span>
+                </a>
+                <a href="https://www.instagram.com/marcoss.cardozo/" target="_blank" class="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="#" class="twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+            </div>
+            <div class="container-policies">
+                <ul>
+                    <li><a href="#">Politicas de Privacidad</a></li>
+                    <li><a href="#">Politica de Devoluciones</a></li>
+                    <li><a href="#">Terminos de comprar</a></li>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
