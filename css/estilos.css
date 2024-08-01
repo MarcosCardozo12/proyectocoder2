@@ -1,0 +1,88 @@
+header {
+  border-bottom: 1px solid #f1f5f9;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #fff; }
+  header h1 header h1 {
+    color: black;
+    font-size: 60px;
+    font-weight: 900; }
+  header nav {
+    display: flex;
+    list-style: none;
+    gap: 20px; }
+    header nav ul {
+      list-style: none;
+      display: flex; }
+      header nav ul li {
+        text-decoration: none;
+        color: #334155;
+        font-size: 16px;
+        padding: 10px 16px;
+        border-radius: 100px; }
+        header nav ul li a {
+          background-color: #f1f5f9; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+  .container img {
+    max-width: 100%; }
+
+.features-product .feature-product {
+  padding: 25px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 15px; }
+  .features-product .feature-product i {
+    font-size: 20px;
+    margin-bottom: 10px; }
+    .features-product .feature-product i h4 {
+      font-size: 16px; }
+      .features-product .feature-product i h4 p {
+        color: #64748b;
+        font-size: 14px;
+        font-weight: 500; }
+
+.card-payment {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  border-radius: 20px;
+  position: sticky;
+  top: 120px;
+  box-shadow: 0 10px 15px #000000;
+  justify-content: space-between;
+  border: 1px solid #e5e7eb; }
+  .card-payment p {
+    font-size: 14px;
+    text-transform: capitalize; }
+    .card-payment p i {
+      color: #fb923c; }
+      .card-payment p i span {
+        color: #334155;
+        text-decoration: underline; }
+
+.header-details-product {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; }
+  .header-details-product h2 {
+    color: #1e293b;
+    font-size: 35px;
+    margin-bottom: 3px; }
+
+.feature-product.shipping {
+  background-color: #fef2f2; }
+  .feature-product.shipping i {
+    font-size: 20px;
+    margin-bottom: 10px; }
+    .feature-product.shipping i h4 {
+      font-size: 16px; }
+      .feature-product.shipping i h4 p {
+        color: #64748b;
+        font-size: 14px;
+        font-weight: 500; }
